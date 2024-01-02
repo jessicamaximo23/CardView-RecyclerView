@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CardView (Books)-RecyclerView</string>
+    <string name="cover">Cover</string>
+    <string name="title_place_holder">Title Place Holder</string>
+    <string name="author_place_holder">Author Place Holder</string>
+</resources>
