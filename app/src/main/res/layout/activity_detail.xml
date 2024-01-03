@@ -40,13 +40,13 @@
             android:layout_marginTop="10dp"/>
 
     <TextView
-        android:id="@+id/tag_state_description"
+        android:id="@+id/description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/author_place_holder"
         android:textColor="@color/black"
-        android:textSize="15sp"
+        android:textSize="12sp"
         android:layout_marginTop="10dp" />
 
 
