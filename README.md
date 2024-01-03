@@ -3,8 +3,7 @@ This is a intermediated project that I am developed to practice my knowledge in 
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-![Card View]()
-src=
+<img src="cardview3.png" width="260">&emsp;
 
 
 ## Tecnologies
