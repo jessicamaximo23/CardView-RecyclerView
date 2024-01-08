@@ -6,7 +6,7 @@ import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.cardviewbooks_recyclerview.databinding.ActivityMainBinding
 
-    //implement the book interface
+//This is the main class that I extended a app activity and implement the book interface
 class MainActivity : AppCompatActivity(), BookClickListener {
 
     private lateinit var binding: ActivityMainBinding
@@ -14,12 +14,12 @@ class MainActivity : AppCompatActivity(), BookClickListener {
         super.onCreate(savedInstanceState)
         //binding
         binding = ActivityMainBinding.inflate(layoutInflater)
-
         setContentView(binding.root)
 
         //Create a function for populated the books
         populateBooks()
 
+        //
         val mainActivity = this
         binding.RecyclerView.apply{
             layoutManager = GridLayoutManager(applicationContext,3 )
@@ -27,7 +27,8 @@ class MainActivity : AppCompatActivity(), BookClickListener {
         }
 
     }
-
+    // In this part inside de Function for populated the books
+    // I initialized object book, drawable resource,title etc
     private fun populateBooks() {
         val book1 = Book(
             R.drawable.img1,
@@ -116,6 +117,7 @@ class MainActivity : AppCompatActivity(), BookClickListener {
         bookList.add(book9)
     }
 
+        //Create the function on lick
         override fun OnClick(book: Book) {
             val intent = Intent(applicationContext, DetailActivity::class.java)
             //pass the variable from interface
