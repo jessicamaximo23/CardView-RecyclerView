@@ -3,7 +3,7 @@ This is a intermediated project that I am developed to practice my knowledge in 
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-![cardView](https://github.com/jessicamaximo23/CardView-RecyclerView/assets/122978824/2572f17a-78ec-452f-9a92-2c4274c2a7c5)
+![cardView](https://github.com/jessicamaximo23/CardView-RecyclerView/assets/122978824/f5e8a09e-a24b-46e1-a221-33170eaf7fc4)
 
 
 ## Tecnologies
